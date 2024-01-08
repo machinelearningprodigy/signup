@@ -6,9 +6,9 @@
 }
 
 body {
-    background-image: url("back.jpg");
+    background-image: url("sign up.jpg");
     background-size: cover;
-    backdrop-filter: blur(10px);
+	background-position: center;
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
 	align-items: center;
@@ -18,20 +18,21 @@ body {
 }
 
 .container {
-	background-color: #f7d9d9;
+    backdrop-filter: blur(10px);
+	background:transparent;
 	border-radius: 5px;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 	overflow: hidden;
 	width: 400px;
 	max-width: 100%;
-    border: 5px solid rgb(164, 197, 164);
+    border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 30px;
-
 }
 
 .header {
-	border-bottom: 1px solid #f0f0f0;
-    background-color: #f7d9d9;
+	/* border-bottom: 1px solid #f0f0f0; */
+	backdrop-filter: blur(10px);
+	background:transparent;
 	padding: 20px 40px;
 }
 
@@ -39,11 +40,12 @@ body {
 .header h2 {
 	margin: 0;
     text-align:center ;
-    color: #070707;
+    color: #afec08;
 }
 
 .form {
 	padding: 30px 40px;	
+	color: rgb(12, 12, 12);
 }
 
 .form-control {
@@ -58,22 +60,27 @@ body {
 }
 
 .form-control input {
-	border: 2px solid #f0f0f0;
+	border: 1px solid #f0f0f0;
+	background: transparent;
 	border-radius: 5px;
 	display: block;
 	font-family: inherit;
-	font-size: 14px;
+	font-size: 16px;
 	padding: 10px;
 	width: 100%;
+	color: rgb(252, 252, 252);
+
 }
 
 .form-control input:focus {
 	outline: 0;
 	border-color: #777;
+	border: 1px solid #777;
 }
 
 .form-control.success input {
 	border-color: #2ecc71;
+	border: 1px solid #06fc6c;
 }
 
 .form-control.error input {
@@ -88,7 +95,7 @@ body {
 }
 
 .form-control.success i.fa-check-circle {
-	color: #2ecc71;
+	color: #06fc6c;
 	visibility: visible;
 }
 

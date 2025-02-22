@@ -31,7 +31,7 @@ This project features a stylish and user-friendly account creation form with int
 
 1. 📥 **Clone the Repository**  
    ```bash
-   git clone https://github.com/machinelearningprodigy/account-form.git
+   git clone https://github.com/machinelearningprodigy/signup.git
 
 2. 📂 Navigate to the Project Directory
 
